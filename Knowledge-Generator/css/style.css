@@ -1,0 +1,92 @@
+html {
+  background: url("../images/water.jpg") no-repeat center top fixed;
+}
+
+.titles {
+  color: green;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+.titles h2 {
+  color: black;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  font-size: 91%;
+  border: none;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  outline: none;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+  background-color: gray;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.menu {
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 114px;
+  margin: 0 auto;
+  /* Links inside the dropdown */
+}
+.menu a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.menu a:hover {
+  background-color: black;
+}
+
+#wikiViewer {
+  text-align: center;
+  display: none;
+}
+
+.typeSelection {
+  text-align: center;
+}
+.typeSelection #confirmButton {
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+@media only screen and (max-width: 495px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  #searchBar {
+    margin-bottom: 5px;
+  }
+
+  .dropbtn {
+    font-size: 70%;
+  }
+
+  .menu {
+    width: 93px;
+  }
+  .menu a {
+    font-size: 12px;
+  }
+}
